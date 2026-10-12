@@ -8,7 +8,7 @@ Plain HTML/CSS rebuild of [creativewritingcollab.com](https://www.creativewritin
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000. Links are root-relative (`/about-us/`), so open pages through a server rather than double-clicking the files.
+Then open http://localhost:8000. Links are relative (`../about-us/`) so the site works both at the custom domain and at the GitHub Pages project URL (`/cwc-website/`). Open pages through a server rather than double-clicking the files. When adding a page, prefix links with one `../` per folder level.
 
 ## Layout
 

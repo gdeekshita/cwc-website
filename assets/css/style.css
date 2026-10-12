@@ -781,7 +781,7 @@ a { color: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url('/assets/img/shared/hero-library.jpg') center / cover;
+  background: linear-gradient(rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.55)), url('../img/shared/hero-library.jpg') center / cover;
 }
 .ch-card-art span {
   font-family: "Bree Serif", Georgia, serif;
